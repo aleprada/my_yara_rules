@@ -14,21 +14,21 @@ rule crimeware_dotNet_info_stealer {
         $x2 = "ziraat_limpi.exe" fullword ascii
         $x3 = "MiniTool Solution Ltd." fullword wide
 
-        $a1 = "Software\IMVU\\username"  fullword wide
-        $a2 = "FileZilla\recentservers.xml" fullword wide
-        $a3 = "FileZilla\sitemanager.xml" fullword wide
-        $a4 = "Software\Paltalk\\" fullword wide
+        $a1 = "Software\\IMVU\\username"  fullword wide
+        $a2 = "FileZilla\\recentservers.xml" fullword wide
+        $a3 = "FileZilla\\sitemanager.xml" fullword wide
+        $a4 = "Software\\Paltalk\\" fullword wide
         $a5 = "SetWindowsHookEx" fullword ascii
         $a6 = "UnhookWindowsHookEx" fullword ascii
         $a7 = "CallNextHookEx" fullword ascii
         $a8 = "Important.exe" fullword wide
-        $a9 = "Software\IMVU\\username" fullword wide
+        $a9 = "Software\\IMVU\\username" fullword wide
 
         $s1 =  "Browsers.txt" fullword wide 
         $s2 =  "KeyBase" wide
         $s3 =  "JDownloader" wide 
-        $s4  = "LoadLibrary" fullword wide
-        $s5 =  "\Mails.txt" fullword wide
+        $s4  = "LoadLibrary" fullword ascii
+        $s5 =  "\\Mails.txt" fullword wide
 
 
     condition:
