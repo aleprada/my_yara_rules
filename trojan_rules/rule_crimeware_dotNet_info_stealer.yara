@@ -7,6 +7,7 @@ rule crimeware_dotNet_info_stealer {
         version = "0.1"
         hash_md5 = "dc4200ac514006f084ead7f83b84c928"
         hash_sha1 = "52e8f04d6b495d238f1a49283a10e2acc053123b"
+        hash_sha256 = "a850de0705c0f6095910aa1d5ed0e73a49581aa7427fcfaf2ff5144e93b047c1"
     
     strings:
 
