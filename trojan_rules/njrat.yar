@@ -26,8 +26,8 @@ rule njrat{
         
         $s1 = "HID.exe" wide ascii
         $s2 = "dotNET_Reactor.exe" wide ascii
-	$s3 = "b77a5c561934e089" fullword wide ascii
-	$s4 = "b03f5f7f11d50a3a" fullword wide ascii
+	    $s3 = "b77a5c561934e089" fullword wide ascii
+	    $s4 = "b03f5f7f11d50a3a" fullword wide ascii
 
     condition:
     	 (uint16(0) == 0x5A4D and filesize > 8000KB) and 2 of ($x*) and (2 of ($a*) or all of ($s*))
