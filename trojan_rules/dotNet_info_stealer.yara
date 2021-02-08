@@ -1,4 +1,4 @@
-rule crimeware_dotNet_info_stealer {
+rule dotNet_info_stealer {
 
     meta:
         author = "Alejandro Prada"
