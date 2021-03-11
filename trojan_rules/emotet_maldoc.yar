@@ -2,7 +2,7 @@ rule emotet_maldoc {
 
     meta:
         author = "Alejandro Prada"
-        description = "Yara rule for detecting .NET info stealer "
+        description = "Yara rule for detecting emotet maldoc campaigns"
         date = "2021-03-10"
         version = "0.1"
         hash1_sha1 = "3d06ce8d02d172c286a2833292ea32c852d13515"
